@@ -18,7 +18,7 @@ on:
     paths:
       - 'k2.config'
   schedule:
-    - cron: * * 0,1,4,8,12,16,20 * * 4 *
+    - cron: * * 1,4,8,12,16,20 * * ? 
   watch:
    types: started
 
